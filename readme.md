@@ -16,19 +16,16 @@ This testing suite is designed to test GitHub's User API using mock responses fo
    - Open your command line or terminal.
    - Change directory to the newly created folder.
    - Use `git clone https://github.com/maria-kozlova/jestTestSuite` to clone the testing suite repository to your local machine.
-   - After cloning, navigate into the cloned project directory.
 
 3. **Install Dependencies:**
    - Navigate to the project directory and run `npm install` to install necessary dependencies.
    - Make sure you have installed axios and dotenv. To install run: `npm axios` and `npm dotenv` commands.
 
 4. **Setting Up Environment Variables:**
-   - To run this project, you will need to add the following environment variables to your `.env` file. 
-   - Rename `.env.example` to `.env` and update the values with your own API keys.
+   - Rename `.env.example` to `.env`.
+   - No need to replace these tokens with real ones as they are used solely for mock responses in testing.
 
 ### Running Tests
 - Execute `npm test` in the project root directory to run the testing suite.
-
-
 
 For more detailed information on User APIs please refer to [GitHub documentation](https://docs.github.com/en/rest/users/users?apiVersion=2022-11-28#get-the-authenticated-user).
