@@ -22,8 +22,11 @@ This testing suite is designed to test GitHub's User API using mock responses fo
    - Make sure you have installed axios and dotenv. To install run: `npm axios` and `npm dotenv` commands.
 
 4. **Setting Up Environment Variables:**
-   - Rename `.env.example` to `.env`.
-   - No need to replace these tokens with real ones as they are used solely for mock responses in testing.
+   - Create an `.env` file in the root of the project and store the following tokens in it: 
+     - `BEARER_TOKEN_WITH_USER=Bearer mockToken12345`
+     - `BEARER_TOKEN_NO_USER=Bearer mockToken67890`
+     - `BEARER_TOKEN_WRONG=Bearer wrongMockToken4567`
+   Please note, these tokens are not actual API tokens but are used solely for mock responses in testing.
 
 ### Running Tests
 - Execute `npm test` in the project root directory to run the testing suite.
