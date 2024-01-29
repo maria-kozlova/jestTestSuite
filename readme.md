@@ -26,6 +26,7 @@ This testing suite is designed to test GitHub's User API using mock responses fo
      - `BEARER_TOKEN_WITH_USER=Bearer mockToken12345`
      - `BEARER_TOKEN_NO_USER=Bearer mockToken67890`
      - `BEARER_TOKEN_WRONG=Bearer wrongMockToken4567`
+   
    Please note, these tokens are not actual API tokens but are used solely for mock responses in testing.
 
 ### Running Tests
